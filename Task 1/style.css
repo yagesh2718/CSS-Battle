@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;  
+}
+
+body{
+    background-image: url('./assets/bg.avif');
+    font-family: "Lilita One", sans-serif;
+}
+.box {
+    background-color: #0c325a;
+    border-radius: 30px;
+  }
+  
+  .boxc {
+    max-width: 1200px; 
+    margin: 0 auto; 
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    width: 20%; 
+  }
+  
+  nav ul li a {
+    display: block; 
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  nav ul li a:hover {
+    color: #70a7e2;
+  }
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 60%;
+  }
+  
+  .input-block {
+    display: flex;
+    margin-bottom: 20px;
+    
+  }
+  input{
+    background-color: #0056b3;
+  }
+  ::placeholder{
+    color: white;
+    font-family: "Truculenta", sans-serif;
+  }
+  
+  .input-block input,
+  .message {
+    flex: 1;
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+  }
+  
+  .submit-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  .message{
+    width: 98.5%;
+    background-color: #0056b3;
+    font-family: "Truculenta", sans-serif;
+}
+.bigbox{
+    display: flex;
+}
+.right-text{
+    width: 40%;
+}
+.logo{
+    display: flex;
+    height: 30px;
+
+
+}
+.biggest{
+    padding: 40px;
+}
+.bigger{
+    background-color: #0c325a;
+    border-radius: 30px;
+    border: 2px solid rgb(35, 163, 202);
+}
+.hello{
+    font-size: 40px;
+    margin-left: 90px;
+    color: #70a7e2;
+    
+}
+.subhello{
+    font-size: 20px;
+    margin-left: 90px;
+    color: #ffffff;
+    font-family: "Truculenta", sans-serif;
+}
+.intro{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #70a7e2;
+}
+.address{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+.call{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+.follow{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #70a7e2;
+    margin-top: 20px;
+}
+.logo{
+    background-color: white;
+    width: fit-content;
+    margin-top: 5px;
+}
